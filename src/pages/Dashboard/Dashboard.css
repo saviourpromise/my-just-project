@@ -1,0 +1,411 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px red solid; */
+}
+
+body {
+    background: #f8f8f8;
+  }
+
+  a{
+    text-decoration: none;
+    color: #fff;
+  }
+
+header{
+    background: #ffffff;
+}
+
+.react{
+    height: 1.5rem;
+    width: 5rem;
+    background: #155FFE;
+    color: #ffffff;
+    border: none;
+    border-radius: 7px;
+    font-size: 13px;
+    margin-top: 0.5rem;
+    margin-left: 5rem;
+}
+
+.dash{
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 12px;
+}
+
+.poly{
+    margin-top: 1.4rem;
+    margin-left: -1.7rem;
+}
+
+.bell{
+    width: 70%;
+    padding-top: 1rem;
+}
+
+.all{
+    padding-top: 10px;
+}
+
+.flex{
+    display: flex;
+    gap: 1rem;
+}
+
+.css{
+    position: relative;
+    padding-left: 13rem;
+    padding-top: 4rem;
+}
+
+.byy{
+    font-size: 1rem;
+    font-weight: 600;
+    padding-top: 2rem;
+}
+
+.byr{
+    font-size: 1rem;
+    font-weight: 600;
+    padding-top: 2rem;
+    display: none;
+}
+
+.poe{
+    display: flex;
+    gap: 4rem;
+    padding-left: 6rem;
+}
+
+.with{
+    font-size: 15px;
+    font-weight: 600;
+    position: absolute;
+    top: 10%;
+}
+
+.tin{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: #ffffff;
+    padding-left: 10px;
+    border-radius: 20px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.edd{
+    position: relative;
+}
+
+.git::-webkit-scrollbar{
+    display: none;
+}
+
+.git{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    background: #ffffff;
+    margin-left: 13rem;
+    margin-right: 6.5rem;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    height: 28rem;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 30px;
+    margin-bottom: 4rem;
+    margin-top: -6rem;
+}
+
+.mic{
+    margin-bottom: 1rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.lit{
+    display: flex;
+    gap: 1rem;
+}
+
+.two{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-top: 0.4rem;
+}
+
+.vid{
+    font-size: 10px;
+    font-weight: 600;
+    color: #9797A1;
+}
+
+.job{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.ply{
+    width: 30%;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+}
+
+.score{
+    font-size: 1rem;
+    font-weight: 600;
+    position: absolute;
+    top: 10%;
+    left: 46%;
+}
+
+.time{
+    color: #ffffff;
+    display: flex;
+    gap: 5rem;
+    position: absolute;
+    top: 82%;
+    left: 16%;
+}
+
+.test{
+    display: flex;
+    gap: 16.5rem;
+    background: #ffffff;
+    position: absolute;
+    padding-top: 1.3rem;
+    padding-bottom: 1.2rem;
+    top: 25%;
+    left: 46%;
+    padding-left: 1%;
+    padding-right: 2%;
+    border-radius: 20px;
+}
+
+.one{
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+}
+
+.num{
+    font-size: 50px;
+    font-weight: 600;
+    padding-top: 2rem;
+}
+
+.but{
+    width: 5.5rem;
+    height: 2rem;
+    border: 1px solid #155FFE;
+    color: #155FFE;
+    font-size: 11px;
+    font-weight: 600;
+    border-radius: 5px;
+    background: inherit;
+}
+
+.cong{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.you{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.play{
+    width: 4%;
+    position: absolute;
+    top: 45%;
+    left: 26%;
+}
+
+.image{
+    width: 30%;
+    border-radius: 20px;
+}
+
+.small{
+    border-radius: 10px;
+}
+
+.ups{
+    height: 2.3rem;
+    width: 8.5rem;
+    background: #155FFE;
+    color: #ffffff;
+    border: none;
+    border-radius: 7px;
+    font-size: 13px;
+    margin-top: 2rem;
+    margin-left: 69rem;
+}
+
+.sect{
+    display: flex;
+    padding-left: 7rem;
+    gap: 48rem;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.navbar-links{
+    display: flex;
+    gap: 10px;
+}
+
+.toggle-button{
+    display: none;
+}
+
+.idd{
+    font-size: 10px;
+    font-weight: 600;
+    color: #BDBDBD;
+    margin-left: 2.5rem;
+}
+
+.orgi{
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.save{
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .sect{
+        gap: 13rem;
+        padding-left: 1rem;
+    }
+
+    .toggle-button{
+        display: block;
+        position: absolute;
+        top: 4.3%;
+        left: 90%;
+    }
+
+    .save{
+        display: block;
+        margin-top: 1.5rem;
+        margin-right: 0.5rem;
+    }
+
+    .two{
+        margin-top: -1rem;
+    }
+
+    .rect{
+        margin-left: 2.5rem;
+    }
+
+    .byy{
+        display: none;
+    }
+
+    .byr{
+        display: block;
+    }
+
+    .navbar-links, .poly{
+        display: none;
+        flex-direction: column;
+        gap: 0rem;
+        margin-left: -13rem;
+        margin-top: 5rem;
+    }
+
+    .navbar-links.active{
+        display: flex;
+    }
+
+    .bell{
+        padding-top: 12px;
+        padding-bottom: 5px;
+    }
+
+    .flex{
+        gap: 0;
+    }
+
+    .num{
+        font-size: 30px;
+        padding-top: 0;
+    }
+
+    .time{
+        left: 11%;
+    }
+
+    .score{
+        top: 115%;
+        left: 6%;
+    }
+
+    .ups{
+        margin-left: 15.3rem;
+        margin-bottom: 1rem;
+    }
+
+    .tin{
+        display: none;
+    }
+
+    .react{
+        margin-left: 1.5rem;
+        border-radius: 5px;
+    }
+
+    .poe{
+        padding-bottom: 8rem;
+        padding-left: 1.5rem;
+    }
+
+    .css{
+        padding-left: 1.3rem;
+        margin-bottom: 17rem;
+    }
+
+    .image{
+        width: 95%;
+    }
+
+    .test{
+        left: 0;
+        top: 130%;
+        left: 5%;
+        padding-left: 1rem;
+        gap: 3.5rem;
+    }
+
+    .poly{
+        padding-left: 18px;
+        display: none;
+    }
+
+    .git{
+        margin-left: 1rem;
+        padding-left: 10px;
+        margin-right: 1rem;
+        height: 31rem;
+        margin-bottom: 10rem;
+    }
+
+    .play{
+        width: 20%;
+        left: 40%;
+    }
+}

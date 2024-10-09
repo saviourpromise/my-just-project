@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+a{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    color: blue;
+}
+
+body {
+  background: #f8f8f8;
+}
+
+.login {
+    background: #155eef;
+    color: #ffffff;
+    margin-top: 22px;
+    width: 9rem;
+    height: 2.5rem;
+    border-radius: 15px;
+    border: none;
+  }
+
+  .input{
+    background: inherit;
+    height: 2.5rem;
+    width: 21rem;
+    border: 1px solid #b3b1b1;
+    padding: 15px;
+    border-radius: 7px;
+  }
+
+  .div{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  section {
+    background: #ffffff;
+    padding-left: 1rem;
+    margin-right: 34.5rem;
+    margin-left: 28rem;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    border-radius: 20px;
+    margin-top: 5rem;
+  }
+
+  .btn{
+    background: #155eef;
+  color: #ffffff;
+  width: 21rem;
+  height: 2.5rem;
+  border-radius: 10px;
+  border: none;
+  font-size: 12px;
+  /* text-transform: capitalize; */
+  }
+
+  .email{
+    font-size: 12px;
+    font-weight: 600;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+
+  .reset{
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .href{
+    padding-top: 6px;
+  }
+
+  .back{
+    display: flex;
+    gap: 10rem;
+  }
+
+.just {
+    display: flex;
+    padding-left: 5rem;
+    gap: 58rem;
+    padding-bottom: 1rem;
+  }
+
+  @media screen and (max-width: 600px) {
+    .just {
+      gap: 9rem;
+      padding-left: 1%;
+    }
+
+    section{
+      margin-left: 1rem;
+      margin-right: 1rem;
+      padding-left: 1rem;
+    }
+  }
